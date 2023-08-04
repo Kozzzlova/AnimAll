@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>    
+    <link rel="icon" type="image/x-icon" href="./images/icons/icon-cat.ico">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+
+    <div class="wrapper">
+        <header id="top" class="header">
+            <div class="header__logo">
+                <a href="#">
+                    <img src="./images/icons/logo.svg" alt="logo">
+                </a>
+            </div>
+
+            <nav class="header__nav nav-header">
+                <div class="nav-header__block block-header">
+                    <div class="block-header__item">
+                        <a href="./index.html">Homepage</a>
+                    </div>
+                    <div class="block-header__item">
+                        <a href="dashboard.html">Dashboard</a>
+                    </div>
+                    <div class="block-header__item">
+                        <a href="#">Documentation</a>
+                    </div>
+                    <div class="block-header__item">
+                        <a href="pricing.html">Pricing</a>
+                    </div>
+                    
+                </div>
+                <div class="nav-header__block block-header">
+                    <div class="block-header__item">
+                        <a href="#">Sign up</a>
+                    </div>
+                    <div class="block-header__item">
+                        <a href="#">Sign in</a>
+                    </div>
+                </div>
+                
+            </nav>
+         </header>
+
+         <main class="animals">
+            <div class="container">
+                <div class="animals__container">
+                    <div class="animals__search search-animals">
+                        <div class="search-animals__icon">
+                            <img src="./images/icons/search.svg" alt="search">
+                        </div>
+                        <input type="text" placeholder="Roméo" class="search-animals__input">
+                        </input>
+                        <button class="search-animals__btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="36" viewBox="0 0 38 36" fill="none">
+                                <path d="M37.2129 16.7414L1.92801 0.12485C1.36616 -0.135476 0.69575 0.0196118 0.304902 0.51257C-0.0886598 1.00553 -0.102231 1.70619 0.272332 2.213L11.8756 17.9987L0.272332 33.7845C-0.102231 34.2913 -0.0886598 34.9947 0.302188 35.4849C0.565467 35.82 0.959029 36 1.35802 36C1.55073 36 1.74344 35.9585 1.92529 35.8726L37.2102 19.256C37.6933 19.029 38 18.5388 38 17.9987C38 17.4587 37.6933 16.9685 37.2129 16.7414Z" fill="#FF9F00"/>
+                                </svg>
+                        </button>
+                        
+                        
+                        
+                    </div>
+
+                    <div class="animals__slider swiper">
+                        
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide">
+                                <div class="swiper-slide__photo">
+                                    <img src="./images/slider/redcat.webp" alt="redcat">
+                                    <div class="swiper-slide__rating">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="swiper-slide__card card-slide">
+                                    <div class="card-slide__name">
+                                        <div class="card-slide__title title-less">Ron`ald</div>
+                                        <div class="card-slide__status"></div>                                        
+                                    </div>
+
+                                    <div class="card-slide__about">
+                                        <p>Romeo is a European angora cat. He was found on the road in June 2020. His condition was critical and "Nos amis les chats" narrowly saved him. However, he lost an eye due to an infection caused by his stay on the street.</p>
+                                        <p>Today Romeo is a shy cat but very sociable when he trusts. Do not hesitate any longer</p>
+                                    </div>
+
+                                    <div class="card-slide__properties">
+                                        <div class="card-slide__property">cat</div>
+                                        <div class="card-slide__property">Male</div>
+                                        <div class="card-slide__property">02/05/2020</div>
+                                        <div class="card-slide__property">Infirm</div>
+                                        <div class="card-slide__property">Not vaccinated</div>
+                                        <div class="card-slide__property">180 euros</div>
+                                        
+                                    </div>
+                                    
+                                    
+                                    
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="swiper-slide__photo">
+                                    <img src="./images/slider/Romeo.png" alt="Romeo">
+                                    <div class="swiper-slide__rating">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide__card card-slide">
+                                    <div class="card-slide__name">
+                                        <div class="card-slide__title title-less">Roméo</div>
+                                        <div class="card-slide__status"></div>                                        
+                                    </div>
+
+                                    <div class="card-slide__about">
+                                        <p>Romeo is a European angora cat. He was found on the road in June 2020. His condition was critical and "Nos amis les chats" narrowly saved him. However, he lost an eye due to an infection caused by his stay on the street.</p>
+                                        <p>Today Romeo is a shy cat but very sociable when he trusts. Do not hesitate any longer</p>
+                                    </div>
+
+                                    <div class="card-slide__properties">
+                                        <div class="card-slide__property">cat</div>
+                                        <div class="card-slide__property">Male</div>
+                                        <div class="card-slide__property">02/05/2020</div>
+                                        <div class="card-slide__property">Infirm</div>
+                                        <div class="card-slide__property">Not vaccinated</div>
+                                        <div class="card-slide__property">180 euros</div>
+                                        
+                                    </div>
+                                    
+                                    
+                                    
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="swiper-slide__photo">
+                                    <img src="./images/slider/sweet.jpg" alt="sweet">
+                                    <div class="swiper-slide__rating">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide__card card-slide">
+                                    <div class="card-slide__name">
+                                        <div class="card-slide__title title-less">Christian</div>
+                                        <div class="card-slide__status"></div>                                        
+                                    </div>
+
+                                    <div class="card-slide__about">
+                                        <p>Romeo is a European angora cat. He was found on the road in June 2020. His condition was critical and "Nos amis les chats" narrowly saved him. However, he lost an eye due to an infection caused by his stay on the street.</p>
+                                        <p>Today Romeo is a shy cat but very sociable when he trusts. Do not hesitate any longer</p>
+                                    </div>
+
+                                    <div class="card-slide__properties">
+                                        <div class="card-slide__property">Cat</div>
+                                        <div class="card-slide__property">Male</div>
+                                        <div class="card-slide__property">02/05/2020</div>
+                                        <div class="card-slide__property">Infirm</div>
+                                        <div class="card-slide__property">Not vaccinated</div>
+                                        <div class="card-slide__property">180 euros</div>
+                                        
+                                    </div>
+                                    
+                                    
+                                    
+                                </div>
+                              </div>
+                              
+                            </div>                           
+                          
+                            <!-- If we need navigation buttons -->
+                            
+                          
+                    </div>
+
+                    <button class="custom-button-prev">
+                        <img src="./images/slider/arrow-left.svg" alt="">
+                    </button>
+                    <button class="custom-button-next">
+                        <img src="./images/slider/arrow-right.svg" alt="">
+                    </button>
+
+                </div>
+                    
+                
+            </div>
+
+            <div class="pricing__help">
+                <p>Need help?</p>
+                <button class="button advantages__button">Help</button>
+                <a href="#top"  class="btn-up">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                        <rect x="50" y="50" width="50" height="50" rx="25" transform="rotate(-180 50 50)" fill="#F2994A"/>
+                        <path d="M28.8208 26.8458L25 23.025L21.1792 26.8458L20 25.6667L25 20.6667L30 25.6667L28.8208 26.8458Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+         </main>
+
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

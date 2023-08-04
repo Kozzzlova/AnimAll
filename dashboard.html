@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>    
+    <link rel="icon" type="image/x-icon" href="./images/icons/icon-cat.ico">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+    
+        <div class="dashboard-page">
+            <aside class="sidebar">
+                <a href="index.html" class="sidebar__logo">
+                    <img src="./images/icons/logo.svg" alt="logo">
+                </a>
+                <div class="sidebar__title">DashBoard</div>
+                <ul class="sidebar__nav">
+                    <li class="sidebar__item">
+                        <a class="sidebar__link" href="#">Add</a>
+                    </li>    
+                    <li class="sidebar__item">
+                        <a class="sidebar__link" href="#">Import cvs</a>
+                    </li>    
+                    <li class="sidebar__item">
+                        <a class="sidebar__link" href="#">Search</a>
+                    </li>    
+                    <li class="sidebar__item">
+                        <a  class="sidebar__link" href="#">Dashboard</a>
+                    </li>    
+                    <li class="sidebar__item">
+                        <a class="sidebar__link" href="#">Browse</a>
+                    </li>    
+                </ul>
+
+                <div class="sidebar__progress">
+                    <svg class="progress-full"  width="124px" height="124px" fill="none">
+                        <circle class="progress-full__circle" stroke="#EFF0F6" stroke-width="12" cx="60" cy="60" r="52"/>
+                    </svg>
+                    <svg class="progress-ring" width="124px" height="124px" fill="none">
+                        <circle class="progress-ring__circle" stroke="#2E4960"  stroke-linecap="round" stroke-linejoin="round" stroke-width="12" cx="60" cy="60" r="52"/>
+                    </svg>
+                    <div class="progress-text">
+                        <span class="progress-percent">29%</span>
+                        <span class="progress-upload">Upload</span>
+                    </div>
+                </div>
+
+                <div class="sidebar__needhelp">
+                    <div class="sidebar__scientist">
+                        <img src="./images/dashboard/man.png" alt="man">
+                    </div>
+                    <div class="sidebar__help">
+                        <p>Need help?</p>
+                        <button class="button advantages__button">
+                            <span>Help</span>
+                            <img src="./images/icons/help.svg" alt="help">
+                        </button>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                
+            </aside>
+
+            <div class="table">
+                <div class="table__head head-table">
+                    <div class="head-table__title">Add an Animal</div>
+                    <form class="head-table__form">
+                        <div class="head-table__data">
+                            <div class="head-table__element">
+                                <label class="head-table__label" for="Species">Species</label>
+                                <input class="head-table__input" id="Species" placeholder="cat" type="text">
+                            </div>
+                            <div class="head-table__element">
+                                <label class="head-table__label" for="Breed">Breed</label>
+                                <input class="head-table__input" type="text" id="Breed" placeholder="cat">
+                            </div>
+                            <div class="head-table__element">
+                                <label class="head-table__label" for="First-name">First name</label>
+                                <input class="head-table__input" type="text" id="First-name" placeholder="cat cat">
+                            </div>
+                            <div class="head-table__element">
+                                <label class="head-table__label" for="Gender">Gender</label>
+                                <input class="head-table__input" type="text" id="Gender" placeholder="female">
+                            </div>
+                            <div class="head-table__element">
+                                <label class="head-table__label" for="birthday">Date of Birth</label>
+                                <input class="head-table__input input-date" type="date" id="birthday" placeholder="10/01/2015">
+                            </div>
+                            <div class="head-table__element">
+                                <label class="head-table__label" for="photo">Picture of the animal</label>
+                                <input class="head-table__input input-file" type="file" id="photo">
+                            </div>
+                            <div class="head-table__element">
+                                <label class="head-table__label" for="Infirm">Infirm</label>
+                                <input class="head-table__input" type="text" id="Infirm" placeholder="yes">
+                            </div>
+                            <div class="head-table__element">
+                                <label class="head-table__label" for="Vaccinated">Vaccinated</label>
+                                <input class="head-table__input" type="text" id="Vaccinated" placeholder="yes">
+                            </div>
+                            <div class="head-table__element">
+                                <label class="head-table__label" for="Prise">Prise</label>
+                                <input class="head-table__input" type="text" id="Prise" placeholder="1659 €">
+                            </div>
+                            <div class="head-table__element">
+                                <label class="head-table__label" for="Description">Description</label>
+                                <input class="head-table__input" type="text" id="Description" placeholder="caty cat">
+                            </div>
+                        </div>
+                        
+                        <button class="head-table__button">Add</button>
+                        
+                        
+                    </form>
+                    
+                    
+                </div>
+                <div class="table__sheet"></div>
+                
+                
+            </div>
+        </div>
+
+        
+<script src="./js/progressBar.js"></script>
+    
+</body>
+</html>
